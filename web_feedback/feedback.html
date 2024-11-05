@@ -1,0 +1,246 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>广州奇绩医药科技有限公司</title>
+    <link href="../images/logo/3.png" rel="SHORTCUT ICON" />
+    <link rel="stylesheet" href="../css/Home.css" />
+    <link rel="stylesheet" href="../css/feedback.css" />
+    <link rel="stylesheet" href="../css/style.css" type="text/css" media="screen" />
+
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/jquery-2.1.1.min.js"></script>
+
+
+    <script type="text/javascript">
+
+        $(function () {
+            $(".nav2").hide();
+            $(window).scroll(function () {
+                if ($(document).scrollTop() >= 200) {
+                    $(".nav2").addClass("fixnav").slideDown();
+                } else {
+                    $(".nav2").hide();
+                }
+            })
+            $("#button1").click(function () {
+                var i = $("#feedback2").val();
+                if (i == null || i == "") {
+                    $("#p").html(" 不 能 为 空 ! ! !");
+                } else {
+                    add();
+                }
+            })
+        })
+
+
+        function add() {
+            var feedback = $("#fm").serialize();
+            $.ajax({
+                type: "post",
+                async: true,
+                data: feedback,
+                dataType: "text",
+                url: "/kgjssm/feedbackController/addFeedback.do",
+                success: function (data) {
+                    if (data == "success") {
+                        window.location.href = "/kgjssm/index.html";
+                    }
+                },
+                statusCode: {
+                    404: function () {
+                        alert("page not found")
+                    }
+                }
+            });
+        }
+
+
+        (function (y, un, q, u, e) {
+            window[un] =
+                window[un] ||
+                function (y) {
+                    window[un].company_id = window[un].company_id || y;
+
+                };
+            u = document.createElement("script");
+            u.src = q + "?v=" + new Date().getUTCDate();
+            u.async = true;
+            e = document.getElementsByTagName("script")[0];
+            e.parentNode.insertBefore(u, e);
+        })(window, "_YUNQUE", "//dist.yunque360.com/bundle.js");
+        _YUNQUE("cjbf8482jpaprk");
+
+    </script>
+</head>
+
+<body>
+    <div class="navbar-container">
+        <iframe src="/head.html" width="100%" height="250px" frameborder="0" scrolling="no"></iframe>
+    </div>
+    <!--导航栏-->
+    <div id="head_position" class="nav2">
+        <iframe src="/head.html" width="100%" height="250px" frameborder="0" scrolling="no"></iframe>
+    </div>
+
+    <!--<img style="margin:0 auto; display:block;" src="../images/content/timg (1).jpg"/>-->
+
+    <div style="width:100%;">
+        <img width="100%" height="350px" src="../images/content/call_banner.jpg" />
+    </div>
+
+    <div id="feedback">
+        <div class="feedback_left">
+            <div class="feedback_top">热点问题</div>
+            <div>
+
+                <div class="panel-group" id="accordion">
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                    问题一.批准的说明书只写着乳腺增生病，没有写明是阻断和逆转乳腺癌前病变。
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                答：1.说明书上中医的“痰瘀互结、冲任失调”证型已经是乳腺增生比较严重的后期证型了，也就是西医通常说的各种不典型乳腺增生，这个阶段的癌变率大约为10%，也就是我们讲的乳腺癌前病变；金蓉颗粒3期临床试验大约92%的受试者都是中、重度乳腺增生患者，效果显著。<br />
+                                2.说明书上“胸闷胁胀，善郁易怒，失眠多梦，神疲乏力，腰膝痠软”是很多中、重度乳腺增生病患者的常见症状，也是各种肿瘤病人的常见症状，是因为肝、肾亏虚引起的一系列症状。这些症状多数肿瘤患者都受其困扰，肿瘤医院在治疗上目前还没有特效药，通常西药只是一个药只解决一个症状，多个症状要同时服用多种药物，甚至一个症状同时要服用多种药品，并且副作用大。而仅仅金蓉颗粒就可以达到治疗上述症状的效果。
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                    问题二.金蓉颗粒是辅助用药吗？
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                答：国家药品监督管理局对金蓉颗粒的评价是：单独使用的“有较为独特治疗优势”，不是辅助用药。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                                    问题三.金蓉颗粒的临床治疗价值为什么那么高？ 
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                答：金蓉颗粒有效成份约90%，是国内中药复方颗粒剂型中有效成份含量最高的，有效含量是普通中成药的大约18-31袋。仅仅用金蓉颗粒就能达到软化缩小肿块、消除疼痛和胸闷胁胀，善郁易怒，失眠多梦，神疲乏力，腰膝痠软等一系列症状，同时阻断和逆转乳腺癌前病变。
+                                同样药材投料量，不同工艺路线情况下，制得成品比较表（单位：kg ）
+                                <img id="fix_pic" onclick="fix()" style="width:100%;"
+                                    src="../images/product/wenti3.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 点击放大图片 -->
+                    <div id="fix" class="fix">
+                        <div class="fix_img"> <img style="position:fixed; width:1000px; top:200px;"
+                                src="../images/product/wenti3.jpg" /> </div>
+                        <span id="close" style="position:fixed; top:50px; right:0; font-size:30px; color:#FFF;"
+                            class="glyphicon glyphicon-remove btn-lg"></span>
+                    </div>
+                    <script type="text/javascript">
+                        $(function () {
+                            $("#fix").hide();
+                            $("#fix_pic").click(function () {
+                                $("#fix").show();
+                            })
+                            $("#fix").click(function () {
+                                $("#fix").hide();
+                            })
+                        });
+                    </script>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                                    问题四.按照金蓉颗粒的处方开中药饮片回家煲服，能够达到服用金蓉颗粒的效果吗？
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseFive" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                答：无法达到。让我们一起来先看看金蓉颗粒工艺技术的独特性：<br />
+                                1.金蓉颗粒选用的药材内部控制质量标准高于《中国药典》；<br />
+                                2.部分药材是通过高浓度乙醇提取其中有效成分；<br />
+                                3.部分药材是通过蒸馏提取芳香水及芳香油进行包合；<br />
+                                4.部分药材是通过单独提取其中有效成分；<br />
+                                5.部分药材是通过先组合提取再混合提取；<br />
+                                6.金蓉颗粒每袋8.5g（相当于饮片42.5g），成品中干膏占比高达约90%，辅料仅占比例约10%-12%，这种比例目前在国内中药颗粒剂型中有效成份含量最高；<br />
+                                7.质量管理从药材-中间体-成品，共有百来项质量检测项目控制有效成分的指标。<br />
+                                综上所述，家庭煲药是无法做到以上关键技术和指标的。服金蓉颗粒和自己煲中药汤的区别，在于从中药饮片选材到成品的制作过程存在很大差异，直接影响有效成分的获取，从而导致自煲中药汤无法达到金蓉颗粒的临床治疗价值和效果。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+                                    问题五.服用金蓉颗粒有哪些注意事项？ 
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseSix" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                1.刚煮开的开水冲，搅拌2-3分钟，饭后温服，若有沉淀可加少量温水服完；<br />
+                                2.因药物有效成分大、药味重，服药后可含小糖一粒或者其它无糖小零食。<br />
+                                3.月经期停服，月经净后第三天开始服药；<br />
+                                4.三个月经周期为一个疗程（每月服药22天）<br />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    /*   $(function () { $('#collapseFour').collapse({
+                          toggle: false
+                      })});
+                      $(function () { $('#collapseTwo').collapse('show')});
+                      $(function () { $('#collapseThree').collapse('toggle')});
+                      $(function () { $('#collapseOne').collapse('hide')});
+                      $(function () { $('#collapseFive').collapse('toggle')}); */
+                </script>
+
+            </div>
+        </div>
+        <div class="feedback_right">
+            <div class="feedback_top">意见反馈</div>
+            <div style="margin:0px 0 0 50px;">
+                <form id="fm" method="post" name="fm">
+                    <span>联系方式：</span>
+                    <input id="feedback1" class="form-control" name="feedbackContact" placeholder="手机号码"
+                        style="border:1px solid #CCC;" type="text" /><br />
+                    <p style="display:inline-block; position:relative; top:0px;">您的意见和建议：</p>
+                    <textarea id="feedback2" rows="5" name="feedbackAnswer" style="display:inline-block;"
+                        class="form-control" contenteditable="true"></textarea>
+                    <p style="color:red;font-weight:bold;" id="p"></p>
+                    <div id="button1" onclick="addFeedback()" style="margin-left:397px;" class="btn btn-primary">留言
+                    </div>
+                </form>
+                <!--<p class="feedback_proposal_p">广州奇绩医药科技有限公司有限公司</p>
+                <p class="feedback_proposal_p">投诉电话：020-32210285</p>
+                <p class="feedback_proposal_p">投诉邮箱:tsqjyy2019@126.com</p>
+                <p class="feedback_proposal_p">地址：广州市萝岗区科学城科学大道182号创新大厦C2-207</p>-->
+            </div>
+        </div>
+    </div>
+
+    <iframe src="/footer.html" id="bottom"></iframe>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "U7T2C9LNHV.com.breast.app.patient",
+                "paths": ["*","/apps/*"]
+            },{
+                "appID": "U7T2C9LNHV.com.breast.app.doctor",
+                "paths": ["*","/apps/*"]
+            },{
+                "appID": "U7T2C9LNHV.com.breast.app.patientTest",
+                "paths": ["*","/apps/*"]
+            },{
+                "appID": "U7T2C9LNHV.com.breast.app.doctortest",
+                "paths": ["*","/apps/*"]
+            }
+        ]
+    }
+}

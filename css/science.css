@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-weight:inherit;
+	font-style:inherit;
+	font-size:100%;
+	font-family:inherit;
+	vertical-align:baseline;
+}
+.gain_top{
+	width:1000px;
+	height:60px;
+	/*outline:1px solid red;*/
+	position:relative;
+}
+.gain_top:hover{
+	cursor:pointer;
+}
+.gain_h{
+	width:400px;
+	height:40px;
+	
+	float:left;
+}
+.gain_span{
+	font-size:25px;
+	color:#009fe9;
+	font-weight:bold;
+	position:absolute;
+	top:0px;
+}
+.gain_en{
+	position:absolute;
+	top:30px;
+	left:50px;
+	color:#009fe9;
+}
+.gain_h img{
+	margin:10px 0 0 210px;
+}
+/*.dashed{
+	float:left;
+	width:880px;
+	height:20px;
+	border-bottom:2px dashed #005099;
+}
+ 	*/
+.gain_content{
+	width:1000px;
+	/*height:500px;*/
+	/*outline:1px solid red;
+	background-color:red;*/
+}
+/*.gain_content1{
+	transform-origin:center center;
+	transform: rotate(180deg);
+}*/
+.gain_content3 p:hover{
+	cursor:pointer;
+	color:#009fe9;
+}
+.div{
+	transform-origin:center center;
+	transform: rotate(-180deg);
+	transition: transform 0.2s; 
+}
+.div2{
+	transform-origin:center center;
+	transform: rotate(180deg);
+	transition: transform 0.2s; 
+}
+.div1{
+	transform-origin:center center;
+    transform: rotate(0deg);
+	transition: transform 0.2s; 	
+}
+.gain_tab{
+	width:800px;
+	margin:0 auto;
+}
+.gain_tab_tr{
+	width:800px;
+}
+.td{
+	outline:1px solid #CCC;
+	text-align:center;
+	padding:10px;
+	font-family:"思源黑体";
+	color:#000;
+}
+.gain_tab_td1{
+	width:80px;
+}
+.gain_tab_td2{
+	width:480px;
+}
+.gain_tab_td3{
+	width:160px;
+}
+.gain_tab_td4{
+	width:80px;
+}
+
+.gain_content p{
+	color:#000;
+	font-family:"思源黑体";
+	margin:10px 32px;
+	letter-spacing:3px;
+	line-height:30px;
+}
+
+#team{
+	width:1000px;
+	margin:50px auto;
+}
+#team p{
+	width:800px;
+	margin:10px auto;
+	letter-spacing:3px;
+	color:#000;
+	font-family:"思源黑体";
+	line-height:30px;
+	text-indent:43px;
+	font-size:16px;
+}

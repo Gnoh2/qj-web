@@ -1,0 +1,267 @@
+@charset "utf-8";
+/* CSS Document */
+p{
+	font-family:"思源黑体";
+}
+
+#product2{
+	width:1000px;
+	/*outline:1px solid blue;*/
+	margin:50px auto;
+}
+
+.product2_pic{
+	width:1000px;
+	height:170px;
+}
+.product2_pic_left{
+	width:250px;
+	height:170px;
+	float:left;
+	outline:1px solid #ccc;
+}
+.product2_pic_right{
+	width:750px;
+	height:170px;
+	outline:1px solid #ccc;
+	float:left;
+}
+.product2_pic_right_p1{
+	margin:15px 0 0 20px;
+	color:#005099;
+	font-size:20px;
+	font-family:"思源黑体";
+}
+.product2_pic_right_p1_1{
+	margin:30px 10px 10px 20px;
+	color:#333333;
+	font-size:18px;
+	font-family:"思源黑体";
+	letter-spacing:2px;
+	text-indent:36px;
+	line-height:36px;
+}
+.product2_pic_right_p2{
+	line-height:35px;
+	color:#666666;
+	margin-left:30px;
+	text-indent:32px;
+	font-family:"思源黑体";
+	
+}
+.product2_detail{
+	width:1000px;
+	height:40px;
+	margin-top:40px;
+	
+}
+.product2_detail_left{
+	color:#005099;
+	border-bottom:1px solid #005099;
+	font-size:20px;
+	font-family:"思源黑体";
+	font-weight:bold;
+	width:100px;
+	height:40px;
+	float:left;
+	text-align:center;
+}
+.product2_detail_right{
+	border-bottom:1px solid #CCC;
+	width:900px;
+	height:40px;
+	float:left;
+}
+.product2_content_p1{
+	color:rgb(204,110,40);
+	font-size:20px;
+	font-family:"思源黑体";
+}
+.product2_content_p2{
+	font-family:"思源黑体";
+	line-height:30px;
+	text-indent:30px;
+	letter-spacing:1px;
+}
+.product2_content_img{
+width: 735px;margin-bottom: 10px;
+}
+.product2_content_p2 img{
+	width:735px;
+}
+
+.product2_content_span1{
+	cursor:pointer;
+	color:rgb(204,110,40); 
+	font-weight:bold;
+	text-decoration:underline
+	}
+.product2_content_span1:hover{
+	cursor:pointer;
+	color:#F00;
+	
+}
+.product2_content_p3{
+	color:#000;
+	font-family:"思源黑体";
+	margin:0 32px 0 64px;
+	letter-spacing:3px;
+	line-height:30px;
+}
+.clinical1{
+color:rgb(31,86,168);
+font-size:25px;
+}
+.clinical2{
+color:rgb(204,110,40);
+font-size:20px;
+}
+.clinical-box{
+	display:flex;
+	width:735px;
+	position:relative
+}
+
+.clinical-left{
+	background-color:rgb(244,246,247);
+		width:40%;
+	margin:10px 4%;
+	padding:25px;
+}
+.clinical-right{
+		background-color:rgb(208,235,244);
+			width:40%;
+	margin:10px 4%;
+	padding:25px;
+}
+.arrow {
+  display: inline-block;
+  position: absolute;
+  padding: 6px 12px;
+  color: white;
+  background-color: rgb(75,166,221);
+  font-size: 12px;
+  font-weight: bold;
+
+  border-radius: 4px;
+  left:42%;
+  top:50%;
+ 
+}
+
+.arrow::after {
+  content: '';
+  position: absolute;
+  top: -15px;
+  right: -20px;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-left: 30px solid rgb(75,166,221);
+}
+
+#tab{
+	width:1000px;
+	margin:50px auto;
+	position:relative;
+}
+#tab_nav{
+	width:250px;	
+	float:left;
+}
+#tab_nav div{
+	cursor:pointer;
+}
+.product_nav{
+	width:250px;
+	height:80px;
+	text-align:center;
+	line-height:80px;
+	font-size:22px;
+	letter-spacing: 3px;
+	font-weight:bold;
+	background-image:url(../images/product/jrkl_b.jpg);
+	background-size:250px;
+	background-repeat: no-repeat;
+	background-position:center;
+	color:#fff;
+}
+.tab_nav{
+	width:250px;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	letter-spacing:3px;
+	font-size:20px;
+	font-weight:bold;
+	background-image:url(../images/product/jrkl_bb.jpg);
+	background-size:250px;
+
+}
+.product_nav1{
+	width:250px;
+	height:80px;
+	text-align:center;
+	line-height:80px;
+	letter-spacing: 3px;
+	font-size:20px;
+	border-radius:5px;
+	font-weight:bold;
+	background-image:url(../images/product/mgq_b.jpg);
+	background-size:250px;
+	background-repeat: no-repeat;
+	background-position:center;
+	color:#fff;
+}
+.tab_nav1{
+	width:250px;	
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	letter-spacing: 3px;
+	font-size:18px;
+	font-weight:bold;
+	background-image:url(../images/product/mgq_bb.jpg);
+	background-size:250px;
+
+}
+
+.tab_content{
+	width:720px;
+	margin-left:280px;
+	display:none;	
+}
+.tab_content1{
+	width:700px;
+	margin-left:270px;
+	display:none;
+	padding:30px;
+	margin-top:-130px;
+}
+.tab_content1 p{
+	line-height:40px;
+	color: #666;
+}
+
+#tab_content4 p:hover{
+	cursor:pointer;
+}
+
+.fanyi{
+	display:inline;
+	background:#66CCFF;
+	padding:5px;
+	border:1px solid #fff;
+	border-radius:5px;
+	color:#fff;
+	
+	
+
+}
+.fanyi2{
+marigin-left:100px;
+}
+
+.fanyi:hover{
+	cursor:pointer;
+	color:#000;
+}

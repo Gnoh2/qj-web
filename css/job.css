@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+.job_content{
+	width:1000px;
+/*	outline:1px solid red;*/
+	margin:50px auto;
+	position:relative;
+	font-family:"思源黑体";
+}
+.job_detail_1{
+	font-size:20px;
+	color:#00c8ff;
+}
+.job_detail_2{
+	font-size:18px;
+	color:#000;
+	font-weight:bold;
+}
+.job_detail_3{
+	font-size:16px;
+	color:#000;
+	text-indent:36px;
+}
+.job_pic{
+	width:300px;
+	height:500px;
+	outline:1px solid red;
+	position:absolute;
+	top:0;
+	left:700px;
+}

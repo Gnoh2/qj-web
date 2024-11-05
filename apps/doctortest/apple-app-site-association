@@ -1,0 +1,11 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "U7T2C9LNHV.com.breast.app.doctortest",
+                "paths": ["*","/apps/doctortest/*"]
+            }
+        ]
+    }
+}

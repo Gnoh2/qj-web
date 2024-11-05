@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kg.ssm.mapper.FeedbackMapper">
+	
+	<resultMap type="com.kg.ssm.entity.Feedback" id="feedbackMap">
+		<id property="feedbackId" column="feedback_id" />
+		<result property="feedbackContact" column="feedback_contact" />
+		<result property="feedbackAnswer" column="feedback_answer" />
+	</resultMap>
+	
+	
+	<!-- 添加单个部门 -->
+	<insert id="addFeedback" parameterType="com.kg.ssm.entity.Feedback">
+		
+		insert into feedback values(#{feedbackId,jdbcType=INTEGER},#{feedbackContact,jdbcType=VARCHAR},#{feedbackAnswer,jdbcType=VARCHAR})
+	</insert>
+
+	
+	<!-- 查询单个部门 -->
+	<select id="selectFeedbackById" resultMap="feedbackMap">
+		
+	</select>
+	<!-- 查询所有dept -->
+	<select id="selectAllFeedback" resultMap="feedbackMap">
+		select * from feedback
+	</select>
+</mapper>
