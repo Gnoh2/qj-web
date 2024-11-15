@@ -97,56 +97,56 @@ $(function () {
   // 根据 doc 参数设置不同的文档路径
   switch (docParam) {
     case '1':
-      docSrc = '../doc/doc_html/7、 消癖（金蓉）颗粒对三阴性乳腺癌患者CXCL1及预后指标的调节作用：随机对照临床试验-郭莉.html';
+      docSrc = 'qj-webdoc/doc_html/7、 消癖（金蓉）颗粒对三阴性乳腺癌患者CXCL1及预后指标的调节作用：随机对照临床试验-郭莉.html';
       break;
     case '2':
-      docSrc = '../doc/doc_html/9、消癖颗粒改善三阴性乳腺癌巩固期患者生存质量的探索性研究.html';
+      docSrc = 'qj-webdoc/doc_html/9、消癖颗粒改善三阴性乳腺癌巩固期患者生存质量的探索性研究.html';
       break;
     case '3':
-      docSrc = '../doc/doc_html/10、金蓉颗粒联合新辅助化疗治疗...应激、肿瘤标志物水平的影响_张霞.html';
+      docSrc = 'qj-webdoc/doc_html/10、金蓉颗粒联合新辅助化疗治疗...应激、肿瘤标志物水平的影响_张霞.html';
       break;
     case '4':
-      docSrc = '../doc/doc_html/11、金蓉颗粒抗乳腺癌物质基础及作用机制研究_曾弦.html';
+      docSrc = 'qj-webdoc/doc_html/11、金蓉颗粒抗乳腺癌物质基础及作用机制研究_曾弦.html';
       break;
     case '5':
-      docSrc = '../doc/doc_html/12、金蓉颗粒抗乳腺增生和抗乳腺癌活性及其临床应用的研究现状.html';
+      docSrc = 'qj-webdoc/doc_html/12、金蓉颗粒抗乳腺增生和抗乳腺癌活性及其临床应用的研究现状.html';
       break;
     case '6':
-      docSrc = '../doc/doc_html/8、全国名中医林毅五十年乳腺癌临证精要（1031周校对）.html';
+      docSrc = 'qj-webdoc/doc_html/8、全国名中医林毅五十年乳腺癌临证精要（1031周校对）.html';
       break;
     case '7':
-      docSrc = '../doc/doc_html/1、基于网络药理学的TAMSCXCL-1验证是消癖颗粒预防乳腺癌发生和转移的关键介质0808.html';
+      docSrc = 'qj-webdoc/doc_html/1、基于网络药理学的TAMSCXCL-1验证是消癖颗粒预防乳腺癌发生和转移的关键介质0808.html';
       break;
     case '8':
-      docSrc = '../doc/doc_html/2、消癖颗粒通过抑制肿瘤TAMsCXCL1通路抑制乳腺癌干细胞0808.html';
+      docSrc = 'qj-webdoc/doc_html/2、消癖颗粒通过抑制肿瘤TAMsCXCL1通路抑制乳腺癌干细胞0808.html';
       break;
     case '9':
-      docSrc = '../doc/doc_html/3、消癖颗粒通过抑制TAMsCXCL1信号通路抑制乳腺癌转移前微环境的形成0808.html';
+      docSrc = 'qj-webdoc/doc_html/3、消癖颗粒通过抑制TAMsCXCL1信号通路抑制乳腺癌转移前微环境的形成0808.html';
       break;
     case '10':
-      docSrc = '../doc/doc_html/4、消癖颗粒通过抑制CXCL1HMGB1介导的自噬提高乳腺癌化疗敏感性0808.html';
+      docSrc = 'qj-webdoc/doc_html/4、消癖颗粒通过抑制CXCL1HMGB1介导的自噬提高乳腺癌化疗敏感性0808.html';
       break;
     case '11':
-      docSrc = '../doc/doc_html/5、中药消癖颗粒代谢产物分析：基于UPLC-Q-Orbitrap MS结合网络药理学分析的综合策略0326.html';
+      docSrc = 'qj-webdoc/doc_html/5、中药消癖颗粒代谢产物分析：基于UPLC-Q-Orbitrap MS结合网络药理学分析的综合策略0326.html';
       break;
     case '12':
-      docSrc = '../doc/doc_html/6、宝藿苷i通过下调肿瘤相关巨噬细胞C-X-C基序趋化因子配体1通路抑制乳腺癌转移0326.html';
+      docSrc = 'qj-webdoc/doc_html/6、宝藿苷i通过下调肿瘤相关巨噬细胞C-X-C基序趋化因子配体1通路抑制乳腺癌转移0326.html';
       break;
     case '13':
-      docSrc = '../doc/doc_html/10、金蓉颗粒联合新辅助化疗治疗...应激、肿瘤标志物水平的影响_张霞.html';
+      docSrc = 'qj-webdoc/doc_html/10、金蓉颗粒联合新辅助化疗治疗...应激、肿瘤标志物水平的影响_张霞.html';
       break;
     case '14':
-      docSrc = '../doc/doc_html/10、金蓉颗粒联合新辅助化疗治疗...应激、肿瘤标志物水平的影响_张霞.html';
+      docSrc = 'qj-webdoc/doc_html/10、金蓉颗粒联合新辅助化疗治疗...应激、肿瘤标志物水平的影响_张霞.html';
       break;
 
     case '15':
-      docSrc = '../doc/doc_html/10、金蓉颗粒联合新辅助化疗治疗...应激、肿瘤标志物水平的影响_张霞.html';
+      docSrc = 'qj-webdoc/doc_html/10、金蓉颗粒联合新辅助化疗治疗...应激、肿瘤标志物水平的影响_张霞.html';
       break;
     case '16':
-      docSrc = '../doc/doc_html/10、金蓉颗粒联合新辅助化疗治疗...应激、肿瘤标志物水平的影响_张霞.html';
+      docSrc = 'qj-webdoc/doc_html/10、金蓉颗粒联合新辅助化疗治疗...应激、肿瘤标志物水平的影响_张霞.html';
       break;
     default:
-      docSrc = '../404.html';  // 默认页面
+      docSrc = 'qj-web404.html';  // 默认页面
   }
 
   // 设置 iframe 的 src

@@ -22,7 +22,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	width:1000px;
 	/*outline:2px solid #ccc;*/
 	margin:50px auto 50px;
-	position:relative;
+	
 	background-color:#fff;
 }
 .company2{
@@ -59,13 +59,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     height: 600px; 
     margin: 25px auto;
 }
-#company2 img{
-	display:block;
-	position:absolute;
-	top:15px;
-	left:560px;
-	box-shadow:0 0 50px #CCCCCC; 
-}
+
 .background{
 	width:429px;
 	height:238px;
