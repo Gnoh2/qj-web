@@ -1,0 +1,58 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>广州奇绩医药科技有限公司</title>
+    <link href="../images/logo/3.png" rel="SHORTCUT ICON" />
+    <link rel="stylesheet" href="../css/Home.css" />
+    <link rel="stylesheet" href="../css/Company.css" />
+
+    <script src="../js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $(".nav2").hide();
+            $(window).scroll(function () {
+                if ($(document).scrollTop() >= 200) {
+                    $(".nav2").addClass("fixnav").slideDown();
+                } else {
+                    $(".nav2").hide();
+                }
+            })
+        })  
+    </script>
+
+</head>
+
+<body>
+
+    <div class="navbar-container">
+        <iframe src="/qj-web/head.html" width="100%" height="250px" frameborder="0" scrolling="no"></iframe>
+    </div>
+
+    <!--导航栏-->
+    <div id="head_position" class="nav2">
+
+        <iframe src="/qj-web/head.html" width="100%" height="250px" frameborder="0" scrolling="no"></iframe>
+
+
+    </div>
+    <!--轮播图-->
+    <div style="width:100%;"> <img width="100%" src="../images/content/investment_1.jpg" /> </div>
+
+    <!--产品-->
+    <div class="center" style="text-align: center;">
+        <p style="font-size: 30px;margin:10px 0 30px 120px; color: rgb(119, 99, 170);">产品招商政策</p>
+        <img width="75%" style="margin: 20px 0;" src="../images/content/investment_2.jpg" />
+        <img width="75%" style="margin: 20px 0;" src="../images/content/investment_3.jpg" />
+    </div>
+
+
+    <!--底部-->
+
+    <iframe src="/qj-web/footer.html" id="bottom"></iframe>
+
+</body>
+
+</html>
