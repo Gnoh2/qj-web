@@ -134,3 +134,13 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	text-indent:43px;
 	font-size:16px;
 }
+#team img{
+	margin:15px auto 30px auto;
+}
+#team .clinical1{
+	
+color:rgb(204,110,40) ;
+font-size:22px;
+
+margin-bottom:20px;
+}

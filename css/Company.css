@@ -54,6 +54,11 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	color:#005099;
 	font-weight:bold;
 }
+.company2 img {
+    width: 1000px; 
+    height: 600px; 
+    margin: 25px auto;
+}
 #company2 img{
 	display:block;
 	position:absolute;
